@@ -26,6 +26,7 @@
             transform: scale(1);
             transition: transform 0.6s ease-in-out;
         }
+
         & .zoom {
             transform: scale(1.1);
         }
@@ -89,6 +90,7 @@
         }
     }
 }
+
 .block.teaser {
     animation: teaser-fade-in .6s;
     position: relative;
@@ -173,6 +175,7 @@
         }
     }
 }
+
 /** Animations
     Scope the @keyframes to the block (teaser) to avoid accidental conflicts outside the block
 
