@@ -227,6 +227,21 @@
     "id": "teaser",
     "fields": [
       {
+        "component": "aem-content",
+        "name": "textContent_cta",
+        "label": "CTA",
+        "valueType": "string",
+        "validation": {
+          "rootPath": "/content/wknd-xwalk"
+        }
+      },
+      {
+        "component": "text",
+        "name": "textContent_ctaText",
+        "label": "CTA label",
+        "valueType": "string"
+      },
+      {
         "component": "reference",
         "valueType": "string",
         "name": "image",
@@ -253,21 +268,6 @@
         "label": "Text",
         "valueType": "string",
         "required": true
-      },
-      {
-        "component": "aem-content",
-        "name": "textContent_cta",
-        "label": "CTA",
-        "valueType": "string",
-        "validation": {
-          "rootPath": "/content/wknd-xwalk"
-        }
-      },
-      {
-        "component": "text",
-        "name": "textContent_ctaText",
-        "label": "CTA label",
-        "valueType": "string"
       }
     ]
   }
